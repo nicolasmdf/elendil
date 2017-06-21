@@ -1,26 +1,14 @@
 #landing {
-  background: url(http://www.theimaginativeconservative.org/wp-content/uploads/2016/04/Lord-of-the-Rings-.jpg) no-repeat center center fixed;
+  background: url(../assets/bg1.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-}
-#logo {
-  width: 400px;
-  margin: 0 auto;
-}
-#desc {
-  width: 80%;
-  margin: 20% auto 0 auto;
-  font-family: 'Roboto', sans-serif;
-  text-transform: uppercase;
   text-align: center;
-  font-size: 18px;
-  font-weight: bold;
-  color: #e6ee9c;
+  height: 100vh;
 }
 #vid {
-  background: url(http://www.swissnexindia.org/wp-content/uploads/sites/5/2014/10/films.jpg) no-repeat center center fixed;
+  background: url(../assets/bg2.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
