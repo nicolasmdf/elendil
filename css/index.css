@@ -22,7 +22,7 @@ body {
 }
 #intro {
   width: 100%;
-  height: 100vh;
+  height: 75vh;
 }
 #news {
   background: url(../assets/bg1.jpg) no-repeat center center fixed;
@@ -33,7 +33,7 @@ body {
   height: 100vh;
 }
 #logo-card {
-  width: 33%;
+  width: 60%;
   margin: 1% auto;
 }
 .card-content {
