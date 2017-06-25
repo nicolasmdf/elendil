@@ -37,7 +37,7 @@ body {
 }
 .card {
   width: 33%;
-  align-self: center;
+  margin: 50%;
 }
 .card-content {
   background-color: #45270D;
