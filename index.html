@@ -13,28 +13,45 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/css/materialize.min.css">
   </head>
 
-  <nav id='navbar'>
-      <div class='nav-wrapper green darken-3'>
-          <ul class="right hide-on-med-and-down">
-              <li><a href="#landing">Inicio</a></li>
-              <li><a href="#pics">Nosotros</a></li>
-              <li><a href="">Video</a></li>
-              <li><a href="">Proximas Fechas</a></li>
-              <li><a href="">Contacto</a></li>
-          </ul>
-      </div>
-  </nav>
-  
-  
   <body>
+  
+    <div class='navbar-fixed'>
+        <nav>
+            <div class='nav-wrapper'>
+                <a href='#' data-activates='mobile' class='button-collapse'><i class='material-icons'>menu</i></a>
+                <ul class='right hide-on-med-and-down'>
+                    <li><a href='#landing'>Inicio</a></li>
+                    <li><a href='#intro'>Descripcion</a></li>
+                    <li><a href='#vid'>Video</a></li>
+                    <li><a href='#news'>Novedades</a></li>
+                    <li><a href='#contact'>Contacto</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <ul class="side-nav" id="mobile">
+        <li><img src="./assets/logo.jpg" id='side-nav-logo' alt=""></li>
+        <li><a href='#landing'>Inicio</a></li>
+        <li><a href='#intro'>Descripcion</a></li>
+        <li><a href='#vid'>Video</a></li>
+        <li><a href='#news'>Novedades</a></li>
+        <li><a href='#contact'>Contacto</a></li>
+    </ul>
+  
     <div id='landing' class='parallax-container valign-wrapper'>
+        <img id='logo-img-bck' src="./assets/img2.jpg" alt="">
+    </div>
+
+
+
+    <div id='intro'>
         <div class='row'>
             <div class='col s8 offset-s2'>
                 <div class='card'>
                     <div class='card-image z-depth-1'>
                         <img src="./assets/logo.jpg" alt="logo" />
                     </div>
-                    <div class='card-content white-text green darken-3'>
+                    <div class='card-content white-text'>
                         <p>Nuestro repertorio incluye las mas célebres bandas sonoras de:</p>
                         <p><strong>Películas, Series y Video Juegos.</strong></p>
                     </div>
@@ -44,9 +61,11 @@
     </div>
 
 
+    <div id='vid' class='parallax-container'>This</div>
 
-    <div id='pics' class='cont'>Testing</div>
-    <div id='vid' class='cont parallax-container'>This</div>
+    <div id='news'></div>
+
+    <div id='contact' class='parallax-container'></div>
 
     <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/js/materialize.min.js"></script>

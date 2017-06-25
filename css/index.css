@@ -1,18 +1,21 @@
-#navbar {
-  position: fixed;
-  top: 0;
-  height: 50px;
+#side-nav-logo {
+  width: 100%;
 }
-
+#nav-logo {
+  height: 100%;
+}
+.nav-wrapper {
+  background-color: #45270D;
+}
+#mobile {
+  background-color: #45270D;
+  color: white;
+}
+#logo-img-bck {
+  width: 100%;
+}
 #landing {
-  margin-top: 50px;
-  background: url(../assets/bg1.jpg) no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  text-align: center;
-  height: 100vh;
+  height: 75vh;
 }
 #vid {
   background: url(../assets/bg2.jpg) no-repeat center center fixed;
@@ -20,4 +23,8 @@
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  height: 100vh;
+}
+.card-content {
+  background-color: #45270D;
 }
