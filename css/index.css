@@ -30,6 +30,7 @@ body {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  height: 100vh;
 }
 #logo-card {
   width: 33%;
@@ -38,4 +39,8 @@ body {
 .card-content {
   background-color: #45270D;
   text-align: center;
+}
+#video-row {
+  width: 99%;
+  margin: 10% auto;
 }
