@@ -55,5 +55,9 @@ body {
   color: white;
 }
 #contact {
-  height: 50vh;
+  height: 10vh;
+}
+#fb-card {
+  width: 5%;
+  margin: 1% auto;
 }
