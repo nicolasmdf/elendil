@@ -61,7 +61,13 @@ body {
 #contact {
   height: 10vh;
 }
-#fb-card {
-  width: 5%;
-  margin: 1% auto;
+#contact-text-card {
+  width: 35%;
+  margin: 5% auto;
+  background-color: #45270D;
+  color: white;
+}
+#fb-img {
+  width: 50px;
+  margin: 0 auto;
 }
