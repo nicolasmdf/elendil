@@ -24,6 +24,10 @@ body {
 #landing {
   height: 100vh;
   background: url(../assets/img2.jpg) no-repeat center 30% fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 #intro {
   width: 100%;
