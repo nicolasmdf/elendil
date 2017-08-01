@@ -70,9 +70,18 @@ body {
   margin: 5% auto;
   background-color: #45270D;
   color: white;
-  font-size: 1.7}vw;
+  font-size: 1.7vw;
 }
 #fb-img {
   width: 5vw;
-  margin: 0 auto;
+  margin: auto;
+}
+@media (max-width: 900px) {
+  #intro {
+    height: 100%;
+  }
+  #vid-container {
+    width: 80vw;
+    margin: 0 5% 1% 5%;
+  }
 }
