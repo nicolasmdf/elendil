@@ -48,20 +48,6 @@ body {
   background-color: #45270D;
   font-size: 1vw;
 }
-#news {
-  background: url(../assets/bg1.jpg) no-repeat center 10vh fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  height: 100vh;
-}
-#news-card {
-  width: 70%;
-  margin: 25% auto;
-  background-color: #45270D;
-  color: white;
-}
 #contact {
   height: 10vh;
 }
