@@ -1,9 +1,9 @@
 /* secciones: 
 landing
-nosotros (pics)
+nosotros (pics) con bios
 video
 contacto
-proximas fechas */
+SACAR proximas fechas */
 
 $(document).ready(function() {
     $(".button-collapse").sideNav()
